@@ -1,3 +1,9 @@
+# Maldev Academy
+
+[Maldev Academy Home](https://maldevacademy.com)
+
+[Maldev Academy Syllabus](https://maldevacademy.com/syllabus)
+
 ### Christmas
 
 Implementing an injection method mentioned by [@Hexacorn](https://x.com/Hexacorn/status/1350437846398722049?s=20).
