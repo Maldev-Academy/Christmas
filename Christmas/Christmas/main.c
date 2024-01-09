@@ -324,7 +324,7 @@ int main(int argc, char* argv[]) {
 		// Increment Write Process Number
 		dwCurrentProcess++;
 
-		if (dwCurrentProcess == dwWriteProcesses) {
+		if (dwCurrentProcess >= dwWriteProcesses) {
 			// Fork With Target Process Handle & Base Address & dummy arg x3
 			// Christmas.exe 00000000000000DA 00007FF9C37EB78F 256 256 256
 			printf("[%d] Payload Is Written To Target Process \n", argc);
